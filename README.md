@@ -1,458 +1,366 @@
 <div align="center">
 
-# Subhajit Ghosh
+SUBHAJIT GHOSH
 
-### Data Engineering · Business Analytics · Decision Intelligence
+Data Engineering · Business Analytics · Decision Intelligence
 
-**Building data-driven systems that turn raw data into insights, decisions, and action.**
+Building data systems that turn raw information into evidence, evidence into decisions, and decisions into action.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subhajitghosh-profile/)
-[![GitHub](https://img.shields.io/badge/GitHub-subhajit81015-181717?style=flat&logo=github&logoColor=white)](https://github.com/subhajit81015)
+
+
+
 
 </div>
 
----
+01 · THE IDEA
 
-## 🧭 Who I Am
+Data → Evidence → Insight → Decision → Action
 
-I am an MCA graduate focused on **Data Engineering, Analytics, AI/ML, and cloud-based data systems**.
+I build portfolio-grade analytical systems around practical business questions, combining data engineering, analytics, cloud technologies, machine learning and decision-support logic.
 
-I enjoy building practical systems that connect:
+What matters? · Why is it happening? · What should be prioritized? · What could happen next?
 
-**Data → Engineering → Analytics → Business Value → Decision**
+02 · WHAT I BUILD
 
-My portfolio is intentionally designed around business questions rather than isolated technologies.
+<table>
+<tr>
+<td width="33%" valign="top">
 
----
+🔵 INVEST
 
-## 🎯 What I Build
+INVESTIQ
 
-| Direction | Business Question | Portfolio Focus |
-|---|---|---|
-| **INVEST** | Which AI initiative should be prioritized? | AI investment & ROI intelligence |
-| **OPTIMIZE** | Where are operational and financial losses concentrating? | Leakage & process intelligence |
-| **TRANSFORM** | Can a transformation move forward safely? | Risk, readiness & decision intelligence |
+AI Use-Case Prioritization & ROI Engine
 
-### Portfolio Philosophy
+Question:
+Which AI initiative should the business invest in first?
 
-```text
-                    BUSINESS PROBLEM
-                           │
-                           ▼
-                       RAW DATA
-                           │
-                           ▼
-                    DATA QUALITY
-                           │
-                           ▼
-                  DATA ENGINEERING
-                           │
-                           ▼
-                       ANALYTICS
-                           │
-                           ▼
-                  BUSINESS SIGNAL
-                           │
-                 ┌─────────┴─────────┐
-                 ▼                   ▼
-               VALUE                 RISK
-                 │                   │
-                 └─────────┬─────────┘
-                           ▼
-                    PRIORITIZATION
-                           │
-                           ▼
-                    SIMULATION
-                           │
-                           ▼
-                   RECOMMENDATION
-                           │
-                           ▼
-                    ACTION / DECISION
-```
+Focus
 
----
+ROI analysis
 
-# 🚀 Flagship Portfolio
+Investment prioritization
 
-## 01 · INVEST
+AI readiness
 
-### INVESTIQ
-**AI Use-Case Prioritization & ROI Engine**
+Risk evaluation
 
-**Business question:**  
-> Which AI initiative should the business invest in first?
+What-if simulation
 
-A decision-support concept focused on evaluating AI and automation initiatives through structured financial, strategic, readiness, and risk dimensions.
+Explainable scoring
 
-**Core capabilities**
+</td>
+<td width="33%" valign="top">
 
-- ROI analysis
-- Investment prioritization
-- AI readiness assessment
-- Risk evaluation
-- Strategic alignment
-- Explainable scoring
-- What-if simulation
-- Management recommendations
+🟢 OPTIMIZE
 
-**Stack**
+LeakageIQ
 
-`Python` `SQL` `PostgreSQL` `Pandas` `NumPy` `Streamlit` `Plotly` `Scikit-learn`
+Business Process Bottleneck & Leakage Intelligence
 
-> **Data note:** Uses synthetic data and illustrative financial assumptions. Results are not actual company results.
+Question:
+Where are operational and financial losses concentrating?
 
-**Repository:** Coming soon
+Focus
 
----
+Leakage analysis
 
-## 02 · OPTIMIZE
+Process bottlenecks
 
-### [LeakageIQ](https://github.com/subhajit81015/LeakageIQ)
-**Business Process Bottleneck & Leakage Intelligence**
+Risk drivers
 
-**Business question:**  
-> Where are operational and financial losses concentrating?
+Root causes
 
-LeakageIQ is an analytical decision-support platform designed to identify leakage concentration, process bottlenecks, risk drivers, data-quality issues, root causes, and management priorities.
+Data quality
 
-### Decision Flow
+Investigation & action
 
-```text
-DATA
-  ↓
-SIGNAL
-  ↓
-RISK
-  ↓
-PRIORITY
-  ↓
-INVESTIGATION
-  ↓
-ACTION
-```
+</td>
+<td width="33%" valign="top">
 
-**Core capabilities**
+🟣 TRANSFORM
 
-- Process analysis
-- Leakage severity analysis
-- Risk dashboard
-- Risk register
-- Risk detail analysis
-- Control library
-- Action tracking
-- Review calendar
-- Risk-driver analysis
-- Risk concentration
-- Process bottleneck analysis
-- Process data-quality analysis
-- Root-cause intelligence
+TransformRisk
 
-**Stack**
+Transformation Risk, Readiness & Decision Intelligence
 
-`Python` `SQL` `PostgreSQL` `Pandas` `Plotly` `Scikit-learn` `Streamlit`
+Question:
+Can an organization transform safely?
 
-> **Data note:** Project results use a synthetic / illustrative dataset and must not be interpreted as real company performance.
+Focus
 
----
+Risk scoring
 
-## 03 · TRANSFORM
+Readiness
 
-### [TransformRisk](https://github.com/subhajit81015/TransformRisk)
-**Transformation Risk, Readiness & Decision Intelligence**
+Controls
 
-**Business question:**  
-> Can an organization transform safely, and what requires management attention?
+Mitigation
 
-TransformRisk explores a structured framework for transformation risk, organizational readiness, controls, mitigation, governance, portfolio prioritization, and management action.
+Governance
 
-### Risk Model
+Portfolio prioritization
 
-```text
+</td>
+</tr>
+</table>
+
+03 · DECISION-INTELLIGENCE ARCHITECTURE
+
+                         BUSINESS QUESTION
+                                │
+                                ▼
+                         ┌─────────────┐
+                         │    DATA     │
+                         └──────┬──────┘
+                                ▼
+                  ┌────────────────────────┐
+                  │ DATA QUALITY + SQL     │
+                  └───────────┬────────────┘
+                              ▼
+                 ┌───────────────────────────┐
+                 │ ANALYTICS / ML / SPARK    │
+                 └────────────┬──────────────┘
+                              ▼
+                    ┌─────────────────────┐
+                    │ BUSINESS LOGIC      │
+                    └──────────┬──────────┘
+                               ▼
+                    ┌─────────────────────┐
+                    │ DECISION ENGINE     │
+                    └──────────┬──────────┘
+                               ▼
+                 ┌──────────────────────────┐
+                 │ SIMULATE → RECOMMEND     │
+                 └────────────┬─────────────┘
+                              ▼
+                    ┌─────────────────────┐
+                    │ MANAGEMENT ACTION   │
+                    └─────────────────────┘
+
+04 · FLAGSHIP PROJECTS
+
+🔵 INVESTIQ
+
+AI Use-Case Prioritization & ROI Engine
+
+Which AI initiative should the business invest in first?
+
+Capabilities
+
+ROI Analysis · Investment Prioritization · AI Readiness · Risk Evaluation · Strategic Alignment · Explainable Scoring · What-if Simulation
+
+Stack
+
+Python SQL PostgreSQL Pandas NumPy Streamlit Plotly Scikit-learn
+
+Repository: INVESTIQ
+
+Data note: Uses synthetic data and illustrative financial assumptions. No real company ROI or savings are claimed.
+
+🟢 LeakageIQ
+
+Business Process Bottleneck & Leakage Intelligence
+
+Where are operational and financial losses concentrating?
+
+DATA → SIGNAL → RISK → PRIORITY → INVESTIGATION → ACTION
+
+Capabilities
+
+Leakage Analysis · Process Bottlenecks · Risk Drivers · Root Cause · Data Quality · Priority Scoring · Investigation
+
+Stack
+
+Python PostgreSQL SQL Pandas Plotly Streamlit Scikit-learn
+
+Repository: LeakageIQ
+
+Data note: Project figures are synthetic / illustrative and are not actual business results.
+
+🟣 TransformRisk
+
+Transformation Risk, Readiness & Decision Intelligence
+
+Can an organization transform safely, and what requires management attention?
+
+Risk model
+
 Risk = Likelihood × Impact
-```
 
-### Residual Risk
+Residual risk
 
-```text
 Residual Risk =
 Inherent Risk × (1 - Control Effectiveness / 100)
-```
 
-### Readiness Dimensions
+Readiness
 
-```text
-Technology
-Data
-Process
-People
-Governance
-```
+Technology · Data · Process · People · Governance
 
-### Decision Outcomes
+Decision outcomes
 
-```text
-┌──────────────────────────────┐
-│          PROCEED             │
-├──────────────────────────────┤
-│ PROCEED WITH CONDITIONS      │
-├──────────────────────────────┤
-│ REMEDIATE BEFORE PROCEEDING  │
-├──────────────────────────────┤
-│ DO NOT PROCEED               │
-└──────────────────────────────┘
-```
+PROCEED
+PROCEED WITH CONDITIONS
+REMEDIATE BEFORE PROCEEDING
+DO NOT PROCEED
 
-**Core capabilities**
+Repository: TransformRisk
 
-- Transformation risk scoring
-- Readiness assessment
-- Control effectiveness
-- Mitigation tracking
-- Portfolio prioritization
-- Governance decisioning
-- Risk traceability
-- What-if simulation
-- Management Action Center
-- Executive analytics
+Data note: Governance rules and analytical results are prototype frameworks using synthetic data.
 
-> **Data note:** Governance rules and results are prototype frameworks using synthetic data.
-
----
-
-# 🧩 Engineering Capability Map
-
-### Data Engineering
-
-`Python` · `SQL` · `PostgreSQL` · `Apache Spark` · `PySpark` · `Kafka` · `Airflow` · `ETL/ELT` · `Data Pipelines` · `Data Warehousing`
-
-### Cloud & Data Platforms
-
-`AWS` · `EC2` · `S3` · `Lambda` · `Glue` · `Athena` · `Redshift/PostgreSQL`
-
-Also exploring:
-
-`Azure` · `GCP` · `BigQuery` · `Databricks` · `Snowflake` · `dbt`
-
-### Analytics & BI
-
-`Pandas` · `NumPy` · `Power BI` · `Excel` · `Plotly` · `Matplotlib` · `Statistical Analysis` · `Data Visualization`
-
-### AI / Machine Learning
-
-`Scikit-learn` · `TensorFlow` · `Machine Learning` · `Predictive Analytics` · `NLP / AI Concepts`
-
-### Development & Tools
-
-`Git` · `GitHub` · `VS Code` · `Jupyter Notebook` · `Shell Scripting` · `API Integration` · `Streamlit` · `SQLAlchemy`
-
----
-
-# 📊 Selected Projects
-
-### Real-Time Traffic Analytics Pipeline
-
-**Apache Spark · PySpark · AWS Glue · S3 · SQL · Power BI**
-
-An end-to-end data engineering project focused on processing real-time/live traffic data, cloud storage, structured analytics, and operational/predictive visualization.
-
----
-
-### NANDI — AI Voice-Activated Desktop Assistant
-
-**Python · Speech Recognition · APIs · Automation**
-
-A Python-based intelligent assistant focused on voice interaction, task automation, system controls, information retrieval, and web actions.
-
-The project was also presented as research work on a Voice-Activated AI Desktop Assistant.
-
----
-
-### Smart Logistics & Fleet Analytics Platform
-
-**Python · SQL · Kafka · Spark · AWS · Power BI**
-
-A logistics analytics concept focused on fleet performance monitoring, operational reporting, and data-driven decision support using streaming and cloud-oriented data engineering concepts.
-
----
-
-### RBI Payment Intelligence & Fraud Analytics Platform
-
-**Python · SQL · Power BI · Analytics**
-
-A portfolio concept for payment transaction monitoring, anomaly detection, fraud analytics, and executive dashboards.
-
-> **Data note:** This is a portfolio/concept project and should not be interpreted as an RBI or client engagement.
-
----
-
-# 🏗️ How I Build Data Products
-
-I prefer a layered architecture that separates data, analytics, business logic, and presentation.
-
-```text
-┌──────────────────────┐
-│     SOURCE DATA      │
-└──────────┬───────────┘
-           ▼
-┌──────────────────────┐
-│    DATA QUALITY      │
-└──────────┬───────────┘
-           ▼
-┌──────────────────────┐
-│    DATA MODELING     │
-└──────────┬───────────┘
-           ▼
-┌──────────────────────┐
-│   ANALYTICAL LAYER   │
-└──────────┬───────────┘
-           ▼
-┌──────────────────────┐
-│    BUSINESS LOGIC    │
-└──────────┬───────────┘
-           ▼
-┌──────────────────────┐
-│    DECISION ENGINE   │
-└──────────┬───────────┘
-           ▼
-┌──────────────────────┐
-│  DASHBOARD / APP     │
-└──────────┬───────────┘
-           ▼
-┌──────────────────────┐
-│   ACTION / DECISION  │
-└──────────────────────┘
-```
-
-### Engineering principles
-
-- Business problem before technology
-- Data quality before analysis
-- Explainability over unnecessary black-box logic
-- Explicit assumptions
-- Reproducible workflows
-- Separation of concerns
-- Secure configuration
-- Honest representation of synthetic data
-
----
-
-# 🔎 What I Bring
-
-### Business Analytics
-
-- Problem framing
-- KPI design
-- Process analysis
-- Root-cause analysis
-- Financial analysis
-- Risk analytics
-- ROI analysis
-- Dashboard development
-- Decision support
-
-### Data Engineering
-
-- ETL / ELT
-- Data pipelines
-- SQL analytics
-- Data modeling
-- Distributed processing
-- Streaming concepts
-- Cloud data workflows
-- Data quality
-
-### Decision Intelligence
-
-- Prioritization
-- Risk scoring
-- Readiness assessment
-- Scenario analysis
-- What-if simulation
-- Recommendation frameworks
-- Management decision support
-
----
-
-# 🌱 Current Focus
-
-**Data Engineering**
-
-`Advanced SQL` · `Spark/PySpark` · `Airflow` · `AWS` · `Data Modeling` · `ETL/ELT`
-
-**Analytics**
-
-`Power BI` · `Business Intelligence` · `KPI Systems` · `Process Analytics`
-
-**AI / ML**
-
-`Machine Learning` · `AI Applications` · `Intelligent Automation`
-
-**Decision Intelligence**
-
-`ROI Analysis` · `Risk Analytics` · `Prioritization` · `Scenario Simulation`
-
----
-
-# 🎓 Education
-
-### Master of Computer Applications — Institute of Engineering & Management, Kolkata
-
-**2023–2025 · CGPA 8.04**
-
-### Bachelor of Computer Applications — Midnapore College (Autonomous)
-
-**2020–2023 · CGPA 7.00**
-
----
-
-# 📚 Professional Learning
-
-Selected learning and certifications include:
-
-- IBM Data Engineering Professional Certificate
-- Python for Data Science, AI & Development — IBM
-- ETL and Data Pipelines with Shell, Airflow and Kafka — IBM
-- Big Data and Spark Foundations Specialization — IBM
-- AWS Cloud Solutions Architect Professional Certificate — Coursera
-- AWS Cloud Technical Essentials
-- AWS Building Data Lakes on AWS
-- IBM Introduction to Data Analytics
-
----
-
-# 🧠 Working Philosophy
-
-> **Don't build technology for the sake of technology. Build systems that answer important questions.**
-
-I am particularly interested in the space where:
-
-**Data Engineering + Analytics + AI → Better Business Decisions**
-
----
-
-# 📫 Connect
-
-**Subhajit Ghosh**
-
-**Data Engineering · Business Analytics · Decision Intelligence**
-
-📍 Kolkata, West Bengal, India
-
-[LinkedIn](https://www.linkedin.com/in/subhajitghosh-profile/) · [GitHub](https://github.com/subhajit81015)
-
----
+05 · TECHNOLOGY MAP
 
 <div align="center">
 
-### Data → Evidence → Decisions → Action
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=python,postgres,mysql,aws,docker,git,github,vscode,linux,jupyter,apacheairflow&perline=11" alt="Technology icons"/>
+</a>
 
-**Building useful systems. Learning continuously. Solving meaningful problems.**
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
 
----
+Data Engineering
 
-> ### Portfolio Disclaimer
->
-> Portfolio projects may use synthetic datasets, simulated business scenarios, prototype decision rules, and illustrative assumptions. Such results must not be interpreted as actual company performance, client results, revenue, savings, production deployments, or professional engagements unless explicitly stated.
+Python · SQL · PostgreSQL · Apache Spark · PySpark · Kafka · Airflow · ETL/ELT · Data Pipelines
+
+Cloud
+
+AWS · S3 · Glue · Lambda · EC2 · Athena
+
+Analytics & BI
+
+Pandas · NumPy · Power BI · Plotly · Matplotlib · Excel
+
+AI / ML
+
+Scikit-learn · TensorFlow · Machine Learning · Predictive Analytics · AI Applications
+
+Application & Tools
+
+Streamlit · SQLAlchemy · Git · GitHub · VS Code · Jupyter · Shell Scripting · API Integration
+
+06 · HOW I ENGINEER
+
+SOURCE DATA
+     ↓
+DATA QUALITY
+     ↓
+DATA MODEL
+     ↓
+ANALYTICAL LAYER
+     ↓
+BUSINESS LOGIC
+     ↓
+DECISION ENGINE
+     ↓
+APPLICATION / DASHBOARD
+     ↓
+ACTIONABLE INSIGHT
+
+Principle
+
+Approach
+
+Business first
+
+Start with the decision, not the technology
+
+Data quality
+
+Validate before trusting analytical output
+
+Explainability
+
+Make scoring and recommendations traceable
+
+Reproducibility
+
+Keep workflows documented and repeatable
+
+Separation
+
+Keep data, analytics, logic and presentation distinct
+
+Security
+
+Never expose credentials, API keys or secrets
+
+Honesty
+
+Clearly label synthetic data and assumptions
+
+07 · BUSINESS ANALYTICS
+
+KPI Design · Root-Cause Analysis · Process Analytics · Risk Analytics · ROI Analysis · Data Quality · Scenario Analysis · Dashboard Development · Decision Support
+
+08 · SELECTED ENGINEERING WORK
+
+🚦 Real-Time Traffic Analytics Pipeline
+
+Apache Spark · PySpark · AWS Glue · S3 · SQL · Power BI
+
+End-to-end data engineering project focused on real-time/live traffic processing, cloud storage, SQL analytics and operational visualization.
+
+🤖 NANDI — AI Voice-Activated Desktop Assistant
+
+Python · Speech Recognition · APIs · Automation
+
+Python-based intelligent assistant involving voice interaction, automation, system controls and web actions.
+
+🌍 Bharat Earth
+
+Data Engineering · Geospatial Analytics · Machine Learning · Scenario Simulation
+
+Environmental intelligence project combining data engineering, analytics and machine learning concepts.
+
+09 · EDUCATION
+
+Master of Computer Applications (MCA)
+Institute of Engineering & Management, Kolkata · 2023–2025 · CGPA 8.04
+
+Bachelor of Computer Applications (BCA)
+Midnapore College (Autonomous) · 2020–2023 · CGPA 7.00
+
+10 · CURRENTLY BUILDING
+
+01  Advanced Data Engineering
+02  Cloud Data Platforms
+03  AI-enabled Analytics
+04  Generative AI Applications
+05  Decision Intelligence Systems
+06  Reproducible Data Products
+
+11 · OPEN TO OPPORTUNITIES
+
+I am open to early-career opportunities in:
+
+Data Engineering · Data Analytics · Business Analytics · Business Intelligence · Analytics Engineering · AI/ML
+
+Preferred direction: Data Engineering + Analytics, with an increasing focus on AI-enabled decision systems.
+
+12 · CONNECT
+
+<div align="center">
+
+Data → Evidence → Decisions → Action
+
+
+
+
+Building useful systems. Learning continuously. Solving real problems.
+
+</div>
+
+<sub>Portfolio projects may use synthetic datasets, simulated business scenarios and illustrative assumptions. Such results should not be interpreted as actual company performance, client results, revenue, savings or production outcomes unless explicitly stated.</sub>
